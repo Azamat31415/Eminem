@@ -19,4 +19,9 @@ public class Employee extends Person {
         return this.salary;
     }
 
+    @Override
+    public String toString() {
+        return super.toString() + " earns " + getPaymentAmount() + " tenge";
+    }
+
 }
