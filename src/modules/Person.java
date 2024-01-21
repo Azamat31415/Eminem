@@ -2,7 +2,7 @@ package modules;
 
 public class Person implements Payable, Comparable<Person> {
     private static int id_gen = 1;
-    private int id;
+    private final int id;
     private String name;
     private String surname;
     private String position;
@@ -10,12 +10,6 @@ public class Person implements Payable, Comparable<Person> {
     public Person() {
         id = id_gen++;
     }
-    public Person(String name, String surname) {
-        this();
-        setName(name);
-        setSurname(surname);
-    }
-
 
 
     @Override
