@@ -9,5 +9,16 @@ public class Main {
         Employee Employee2 = new Employee("Marshall", "Mathers", 50000.00);
         Student Student1 = new Student("Ryan", "Gosling", 2.66);
         Student Student2 = new Student("Peter", "Parker", 4.00);
+
+        ArrayList<Person> people = new ArrayList<>();
+
+        people.add(Employee1);
+        people.add(Employee2);
+        people.add(Student1);
+        people.add(Student2);
+
+        Collection.sort(people);
+        printData(people);
     }
+
 }
