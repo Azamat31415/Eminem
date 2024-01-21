@@ -5,4 +5,8 @@ public class Person {
     private String surname;
     private String position;
 
+    public Person() {
+        id = id_gen++;
+    }
+
 }
