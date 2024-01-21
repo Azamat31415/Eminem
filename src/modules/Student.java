@@ -30,5 +30,14 @@ public class Student extends Person {
         return super.toString() + " earns " + getSalary() + " tenge";
     }
 
+    public double getSalary() {
+        return salary;
+    }
+
+    public double getGpa() {
+        return gpa;
+    }
+
+
 
 }
