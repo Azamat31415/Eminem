@@ -17,5 +17,13 @@ public class Student extends Person {
         setPosition("modules.Student");
     }
 
+    @Override
+    public double getPaymentAmount() {
+        if (gpa > 2.67) {
+            return 36660.00;
+        }
+        return 0;
+    }
+
 
 }
