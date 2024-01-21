@@ -1,4 +1,5 @@
 package modules;
 
-public class Payable {
+public interface Payable {
+    double getPaymentAmount();
 }
