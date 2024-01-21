@@ -49,4 +49,14 @@ public class Person {
     public void setSurname(String surname) {
         this.surname = surname;
     }
+
+    @Override
+    public int compareTo(Person x) {
+        return Integer.compare((int) this.getPaymentAmount(), (int) x.getPaymentAmount());
+    }
+
+    @Override
+    public double getPaymentAmount() {
+        return 0;
+    }
 }
