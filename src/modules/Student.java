@@ -25,5 +25,10 @@ public class Student extends Person {
         return 0;
     }
 
+    @Override
+    public String toString() {
+        return super.toString() + " earns " + getSalary() + " tenge";
+    }
+
 
 }
