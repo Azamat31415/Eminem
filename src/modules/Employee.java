@@ -14,4 +14,9 @@ public class Employee extends Person {
         setSalary(salary);
     }
 
+    @Override
+    public double getPaymentAmount() {
+        return this.salary;
+    }
+
 }
