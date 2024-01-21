@@ -8,5 +8,14 @@ public class Student extends Person {
         super();
     }
 
+    public Student(String name, String surname, double gpa) {
+        this();
+        setName(name);
+        setSurname(surname);
+        setGpa(gpa);
+        setSalary();
+        setPosition("modules.Student");
+    }
+
 
 }
