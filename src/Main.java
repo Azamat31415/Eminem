@@ -21,4 +21,10 @@ public class Main {
         printData(people);
     }
 
+    public static void printData(Iterable<Oerson> people) {
+        for (Person person : people) {
+            System.out.println(person.toString());
+        }
+    }
+
 }
