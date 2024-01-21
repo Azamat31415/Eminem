@@ -20,7 +20,10 @@ public class Person {
     @Override
     public String toString() {
         return getPosition() + ": " + getId() + ". " + getName() + " " + getSurname();
+    }
 
+    public String getPosition() {
+        return position;
     }
 
 }
