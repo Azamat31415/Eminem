@@ -17,4 +17,10 @@ public class Person {
         setSurname(surname);
     }
 
+    @Override
+    public String toString() {
+        return getPosition() + ": " + getId() + ". " + getName() + " " + getSurname();
+
+    }
+
 }
