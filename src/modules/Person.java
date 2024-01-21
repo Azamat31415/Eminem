@@ -26,4 +26,10 @@ public class Person {
         return position;
     }
 
+    public int getId() {
+        return id;
+    }
+
+
+
 }
