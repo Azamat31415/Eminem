@@ -17,14 +17,13 @@ public class Main {
         people.add(Student1);
         people.add(Student2);
 
-        Collection.sort(people);
+        Collections.sort(people);
         printData(people);
     }
 
-    public static void printData(Iterable<Oerson> people) {
+    public static void printData(Iterable<Person> people) {
         for (Person person : people) {
             System.out.println(person.toString());
         }
     }
-
 }
