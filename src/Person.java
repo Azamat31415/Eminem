@@ -9,4 +9,10 @@ public class Person {
         id = id_gen++;
     }
 
+    public Person(String name, String surname) {
+        this();
+        setName(name);
+        setSurname(surname);
+    }
+
 }
