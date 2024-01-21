@@ -24,4 +24,7 @@ public class Employee extends Person {
         return super.toString() + " earns " + getPaymentAmount() + " tenge";
     }
 
+    public void setSalary(double salary) {
+        this.salary = salary;
+    }
 }
