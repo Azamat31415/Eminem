@@ -38,6 +38,11 @@ public class Student extends Person {
         return gpa;
     }
 
+    public void setSalary() {
+        this.salary = getPaymentAmount();
+    }
 
-
+    public void setGpa(double gpa) {
+        this.gpa = gpa;
+    }
 }
